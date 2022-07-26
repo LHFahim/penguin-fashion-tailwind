@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Penguin Fashion</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/bc584a576f.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -34,6 +42,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <header class="bg-penguin pb-32 pt-10">
       <!-- navigation starts -->
@@ -386,29 +395,32 @@
       <section class="">
         <div class="grid grid-cols-2 gap-7">
           <div class="rounded-lg flex p-7">
-            <img class="w-20 h-20" src="images/house.png" alt="" />
+            <img class="w-20 h-20 mr-6" src="images/house.png" alt="" />
             <div>
-              <h4 class="text-2xl">Find the Perfect Fit</h4>
+              <h4 class="text-2xl mb-3">Find the Perfect Fit</h4>
               <p>
                 Everybody is different, which is why we offer styles for every
                 body.
               </p>
             </div>
           </div>
-          <div class="row-span-3">
-            <img src="images/shopping.png" alt="" />
+
+          <div class="row-span-3 flex items-center">
+            <img class="h-80" src="images/shopping.png" alt="" />
           </div>
+
           <div class="rounded-lg flex p-7">
-            <img class="w-20 h-20" src="images/box.png" alt="" />
+            <img class="w-20 h-20 mr-6" src="images/box.png" alt="" />
             <div>
-              <h4 class="text-2xl">Free Exchanges</h4>
+              <h4 class="text-2xl mb-3">Free Exchanges</h4>
               <p>One of the many reasons you can shop with peace of mind.</p>
             </div>
           </div>
+
           <div class="rounded-lg flex p-7">
-            <img class="w-20 h-20" src="images/question.png" alt="" />
+            <img class="w-20 h-20 mr-6" src="images/question.png" alt="" />
             <div>
-              <h4 class="text-2xl">Contact Our Seller</h4>
+              <h4 class="text-2xl mb-3">Contact Our Seller</h4>
               <p>
                 They are here to help you. That's quite literally what we pay
                 them for.
@@ -419,8 +431,22 @@
       </section>
     </main>
 
-    <footer>
-      <p>Shop From Us!</p>
+    <footer class="mt-8">
+      <div
+        class="container bg-lime-600 text-white h-40 flex flex-col justify-center items-center"
+      >
+        <h1 class="text-3xl font-bold">Shop From Us!</h1>
+        <div>
+          <small>© LH Fahim 2022</small>
+          <a
+            class="text-4xl text-cyan-900"
+            target="_blank"
+            href="https://twitter.com/iFahimH"
+          >
+            <i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
